@@ -1,0 +1,5 @@
+print("Sinh vien: Hoang Vo Khac Quan")
+print("Ma so sv: 245752021610150")
+ho_ten=input("Nhap ho va ten").split()
+print("Ho:", ho_ten[0])
+print("Ten:",ho_ten[-1])
