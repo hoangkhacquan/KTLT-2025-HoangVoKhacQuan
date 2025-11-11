@@ -1,0 +1,13 @@
+print ("Sinh vien: Hoang Vo Khac Quan")
+print ("Ma so sv: 245752021610150")
+danh_sach = [1,2,3,4,5] 
+max_value = max(danh_sach)
+min_value = min(danh_sach)
+print(f"Danh sách: {danh_sach}")
+print(f"Giá trị Lớn nhất (Max): {max_value}")
+print(f"Giá trị Nhỏ nhất (Min): {min_value}")
+print("\n--- KẾT QUẢ VỊ TRÍ ---")
+vi_tri_max = danh_sach.index(max_value)
+print(f"Vị trí (Index) của Max ({max_value}) là: {vi_tri_max}")
+vi_tri_min = danh_sach.index(min_value)
+print(f"Vị trí (Index) của Min ({min_value}) là: {vi_tri_min}")
